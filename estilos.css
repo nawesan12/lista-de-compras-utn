@@ -1,0 +1,35 @@
+.color1 {
+  background: red;
+}
+
+.color2 {
+  background: green;
+  border:1px solid black;
+}
+
+.actividad3 .actividad-layout {
+  background: rgba(0, 0, 0, .5);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  display:none;
+}
+
+.actividad3 p {
+  background: white;
+  padding: 2rem;
+  border: 2px solid black;
+}
+
+.actividad3 .visible {
+  display: flex;
+}
+
+/* ESPECIFICIDAD */
