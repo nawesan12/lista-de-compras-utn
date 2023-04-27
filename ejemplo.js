@@ -13,10 +13,7 @@ function verificarProductosEnAlmacenamiento() {
   if(productos) {
     listaDeProductos = JSON.parse(productos) 
     renderizarProductos()
-    return
   } 
-
-  return
 }
 
 function renderizarProductos() {
